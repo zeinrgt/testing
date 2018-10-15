@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="IT Services">49712381dbc12300f3432fb74896192f</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Create a new service in this Service Category</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Create New Service</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>40</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>$ng_fd_sc.do?sysparm_stack=no&amp;sysparm_attributes=showSelect%3Afalse%2CstartNewItem%3Atrue%2ComitPrice%3Atrue%2CstartType%3A"sc_cat_item_producer_service"%2CshowSaveAndClose%3Atrue%2CtargetCategory%3A"d871ef01dbc12300f3432fb748961938"%2CtargetTable%3A"x_43445_test_it_task"%2CtargetCatalog%3A"e0d08b13c3330100c8b837659bba8fb4"&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query>
+        <report/>
+        <roles>catalog_manager,catalog_editor</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:37:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d712381dbc12300f3432fb74896193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+        <sys_update_name>sys_app_module_8d712381dbc12300f3432fb74896193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:37:52</sys_updated_on>
+        <timeline_page/>
+        <title>Create New Service</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>new_service</window_name>
+    </sys_app_module>
+</record_update>

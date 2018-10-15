@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_43445_test_it_task_user" name="x_43445_test_it_task_user">5471ef41dbc12300f3432fb748961986</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:37:50</sys_created_on>
+        <sys_id>1471ef41dbc12300f3432fb748961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5471ef41dbc12300f3432fb748961986</sys_name>
+        <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1471ef41dbc12300f3432fb748961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:37:50</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

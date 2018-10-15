@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Enterprise Service Management" name="Enterprise Service Management">ae9d02137f232200ee2e108c3ffa9134</category>
+        <collection>x_43445_test_it_task</collection>
+        <condition table="x_43445_test_it_task">stateCHANGESTO3^ORstateCHANGESTO4^ORstateCHANGESTO7^assignment_groupISNOTEMPTY^assigned_toISEMPTY^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="7"/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>ccrTemplate</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[
+<p><span style="font-size: 10pt;">Short Description: ${short_description}<br /></span><span style="font-size: 10pt;">Click here to view: ${URI_REF}</span></p>
+<hr />
+<p>State: ${state}<br /><span style="font-size: 10pt;">Priority: ${priority}</span></p>
+<p>Comments and work notes:<br />${comments_and_work_notes}</p>
+]]></message_html>
+        <message_list>ba40c70253020200601fa3fc9ec587c3</message_list>
+        <message_text/>
+        <name>Task closed for group</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assignment_group</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} has been closed - ${short_description}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:37:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc712381dbc12300f3432fb748961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task closed for group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+        <sys_update_name>sysevent_email_action_fc712381dbc12300f3432fb748961919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:37:52</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>200</weight>
+    </sysevent_email_action>
+</record_update>

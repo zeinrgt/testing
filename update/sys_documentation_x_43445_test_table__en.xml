@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Test Table" language="en" table="x_43445_test_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Test Table</label>
+            <language>en</language>
+            <name>x_43445_test_table</name>
+            <plural>Test Tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-08 03:45:36</sys_created_on>
+            <sys_id>e90a3689db412300f3432fb7489619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test Table</sys_name>
+            <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+            <sys_update_name>sys_documentation_x_43445_test_table__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-08 03:45:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

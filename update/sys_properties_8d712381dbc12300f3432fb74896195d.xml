@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Approval engine to use for the x_43445_test_it_task table.  Valid options are: (blank) to use Approval Rules, 'process_guide' to use Process Guides and 'off' to turn off the approval engines for the table (set to 'off' when using Workflow to manage approvals).</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.approval_engine.x_43445_test_it_task</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:37:53</sys_created_on>
+        <sys_id>8d712381dbc12300f3432fb74896195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.approval_engine.x_43445_test_it_task</sys_name>
+        <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+        <sys_update_name>sys_properties_8d712381dbc12300f3432fb74896195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:37:53</sys_updated_on>
+        <type>string</type>
+        <value>off</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d712381dbc12300f3432fb74896195d"/>
+</record_update>

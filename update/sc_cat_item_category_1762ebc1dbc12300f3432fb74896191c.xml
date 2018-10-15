@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="IT Service Test">cf622381dbc12300f3432fb7489619b4</sc_cat_item>
+        <sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:42:07</sys_created_on>
+        <sys_id>1762ebc1dbc12300f3432fb74896191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.IT Service Test</sys_name>
+        <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+        <sys_update_name>sc_cat_item_category_1762ebc1dbc12300f3432fb74896191c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:42:07</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

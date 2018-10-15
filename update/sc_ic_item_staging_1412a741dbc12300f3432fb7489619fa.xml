@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_ic_item_staging">
+    <sc_ic_item_staging action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aprvl_defn_changed>false</aprvl_defn_changed>
+        <availability>on_both</availability>
+        <cost>0</cost>
+        <counter>0</counter>
+        <description/>
+        <desktop_image/>
+        <entitlements>{"cmn_location":[],"sys_user_group":[],"cmn_department":[]}</entitlements>
+        <fulfillment_group/>
+        <fulfillment_user/>
+        <item_type>sc_cat_item_producer_service</item_type>
+        <layout_changed>false</layout_changed>
+        <mobile_image/>
+        <name>IT Service Test</name>
+        <recurring_cost>0</recurring_cost>
+        <recurring_frequency/>
+        <sc_cat_item display_value="IT Service Test">cf622381dbc12300f3432fb7489619b4</sc_cat_item>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_categories>d871ef01dbc12300f3432fb748961938,95fc11615f1211001c9b2572f2b477c6</sc_categories>
+        <short_description>SD Test</short_description>
+        <state>published</state>
+        <submission_message/>
+        <sys_class_name>sc_ic_item_staging</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:40:33</sys_created_on>
+        <sys_id>1412a741dbc12300f3432fb7489619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IT Service Test</sys_name>
+        <sys_package display_value="Test" source="x_43445_test">d10a7285db412300f3432fb7489619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test">d10a7285db412300f3432fb7489619ac</sys_scope>
+        <sys_update_name>sc_ic_item_staging_1412a741dbc12300f3432fb7489619fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:40:34</sys_updated_on>
+        <table_name>x_43445_test_it_task</table_name>
+        <task_defn_changed>false</task_defn_changed>
+        <var_defn_changed>false</var_defn_changed>
+        <var_meta_changed>false</var_meta_changed>
+        <version>2.0</version>
+        <workflow>{"approval_notifications":[],"assignments":{"sys_user":{},"sys_user_group":{}},"approvals":[],"completion_notifications":[{"display":"the requestor","type":"field","value":"opened_by"}],"submission_notifications":[{"display":"the requestor","type":"field","value":"opened_by"}]}</workflow>
+    </sc_ic_item_staging>
+    <fx_price action="delete_multiple" query="id=1412a741dbc12300f3432fb7489619fa"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>cost</field>
+        <id>1412a741dbc12300f3432fb7489619fa</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:40:33</sys_created_on>
+        <sys_id>1c12a741dbc12300f3432fb7489619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:40:33</sys_updated_on>
+        <table>sc_ic_item_staging</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_cost</field>
+        <id>1412a741dbc12300f3432fb7489619fa</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 06:40:33</sys_created_on>
+        <sys_id>1c12e7c1dbc12300f3432fb7489619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 06:40:33</sys_updated_on>
+        <table>sc_ic_item_staging</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_translated_text action="delete_multiple" query="documentkey=1412a741dbc12300f3432fb7489619fa"/>
+</record_update>
